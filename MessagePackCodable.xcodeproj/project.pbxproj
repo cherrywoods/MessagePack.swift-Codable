@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6326E6A92067EF6B00064BA0 /* IntMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6A82067EF6B00064BA0 /* IntMeta.swift */; };
+		6326E6AA2067EF6B00064BA0 /* IntMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6A82067EF6B00064BA0 /* IntMeta.swift */; };
+		6326E6AB2067EF6B00064BA0 /* IntMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6A82067EF6B00064BA0 /* IntMeta.swift */; };
+		6326E6AC2067EF6B00064BA0 /* IntMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6A82067EF6B00064BA0 /* IntMeta.swift */; };
+		6326E6AE2067F24700064BA0 /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6AD2067F24700064BA0 /* Primitives.swift */; };
+		6326E6AF2067F24700064BA0 /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6AD2067F24700064BA0 /* Primitives.swift */; };
+		6326E6B02067F24700064BA0 /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6AD2067F24700064BA0 /* Primitives.swift */; };
+		6326E6B12067F24700064BA0 /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6AD2067F24700064BA0 /* Primitives.swift */; };
+		6326E6B42067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6B32067F4D200064BA0 /* MsgpackTranslator+_wrap.swift */; };
+		6326E6B52067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6B32067F4D200064BA0 /* MsgpackTranslator+_wrap.swift */; };
+		6326E6B62067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6B32067F4D200064BA0 /* MsgpackTranslator+_wrap.swift */; };
+		6326E6B72067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6B32067F4D200064BA0 /* MsgpackTranslator+_wrap.swift */; };
+		6326E6B92067F84400064BA0 /* MapMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6B82067F84400064BA0 /* MapMeta.swift */; };
+		6326E6BB2067FC7B00064BA0 /* EncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6BA2067FC7B00064BA0 /* EncodingOptions.swift */; };
+		6326E6BC2067FC7B00064BA0 /* EncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6BA2067FC7B00064BA0 /* EncodingOptions.swift */; };
+		6326E6BD2067FC7B00064BA0 /* EncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6BA2067FC7B00064BA0 /* EncodingOptions.swift */; };
+		6326E6BE2067FC7B00064BA0 /* EncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326E6BA2067FC7B00064BA0 /* EncodingOptions.swift */; };
 		637E18DD20678D68007969B1 /* MessagePackCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E18D320678D68007969B1 /* MessagePackCodable.framework */; };
 		637E18E220678D68007969B1 /* MessagePackCodable_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E18E120678D68007969B1 /* MessagePackCodable_iOSTests.swift */; };
 		637E18E420678D68007969B1 /* MessagePackCodable.h in Headers */ = {isa = PBXBuildFile; fileRef = 637E18D620678D68007969B1 /* MessagePackCodable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -78,6 +95,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6326E6A82067EF6B00064BA0 /* IntMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntMeta.swift; sourceTree = "<group>"; };
+		6326E6AD2067F24700064BA0 /* Primitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitives.swift; sourceTree = "<group>"; };
+		6326E6B32067F4D200064BA0 /* MsgpackTranslator+_wrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MsgpackTranslator+_wrap.swift"; sourceTree = "<group>"; };
+		6326E6B82067F84400064BA0 /* MapMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapMeta.swift; sourceTree = "<group>"; };
+		6326E6BA2067FC7B00064BA0 /* EncodingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingOptions.swift; sourceTree = "<group>"; };
 		637E18D320678D68007969B1 /* MessagePackCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessagePackCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		637E18D620678D68007969B1 /* MessagePackCodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagePackCodable.h; sourceTree = "<group>"; };
 		637E18D720678D68007969B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,7 +200,7 @@
 			children = (
 				637E19592067A445007969B1 /* MetaSerialization.framework.dSYM */,
 				637E19572067A440007969B1 /* MessagePack.framework.dSYM */,
-				637E18D520678D68007969B1 /* MessagePackCodable */,
+				637E18D520678D68007969B1 /* Sources */,
 				637E18E020678D68007969B1 /* Tests */,
 				637E18D420678D68007969B1 /* Products */,
 				637E19512067A40E007969B1 /* Frameworks */,
@@ -199,9 +221,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		637E18D520678D68007969B1 /* MessagePackCodable */ = {
+		637E18D520678D68007969B1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6326E6BA2067FC7B00064BA0 /* EncodingOptions.swift */,
 				637E19822067B3EC007969B1 /* MessagePackValue+Codable */,
 				637E197C2067AC2F007969B1 /* Extension */,
 				637E19762067A883007969B1 /* Translator */,
@@ -209,7 +232,7 @@
 				637E18D720678D68007969B1 /* Info.plist */,
 				637E18D620678D68007969B1 /* MessagePackCodable.h */,
 			);
-			path = MessagePackCodable;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		637E18E020678D68007969B1 /* Tests */ = {
@@ -261,6 +284,9 @@
 		637E19752067A7CA007969B1 /* Metas */ = {
 			isa = PBXGroup;
 			children = (
+				6326E6AD2067F24700064BA0 /* Primitives.swift */,
+				6326E6A82067EF6B00064BA0 /* IntMeta.swift */,
+				6326E6B82067F84400064BA0 /* MapMeta.swift */,
 			);
 			path = Metas;
 			sourceTree = "<group>";
@@ -269,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				637E19772067A8A6007969B1 /* MsgpackTranslator.swift */,
+				6326E6B32067F4D200064BA0 /* MsgpackTranslator+_wrap.swift */,
 			);
 			path = Translator;
 			sourceTree = "<group>";
@@ -690,9 +717,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6326E6B52067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */,
 				637E197F2067AC7A007969B1 /* MessagePackExtension.swift in Sources */,
 				637E19852067B425007969B1 /* MessagePackValue+Codable.swift in Sources */,
+				6326E6AF2067F24700064BA0 /* Primitives.swift in Sources */,
+				6326E6AA2067EF6B00064BA0 /* IntMeta.swift in Sources */,
 				637E19792067A8A6007969B1 /* MsgpackTranslator.swift in Sources */,
+				6326E6BC2067FC7B00064BA0 /* EncodingOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,9 +739,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6326E6B62067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */,
 				637E19802067AC7A007969B1 /* MessagePackExtension.swift in Sources */,
 				637E19862067B425007969B1 /* MessagePackValue+Codable.swift in Sources */,
+				6326E6B02067F24700064BA0 /* Primitives.swift in Sources */,
+				6326E6AB2067EF6B00064BA0 /* IntMeta.swift in Sources */,
 				637E197A2067A8A6007969B1 /* MsgpackTranslator.swift in Sources */,
+				6326E6BD2067FC7B00064BA0 /* EncodingOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,9 +753,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6326E6B72067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */,
 				637E19812067AC7A007969B1 /* MessagePackExtension.swift in Sources */,
 				637E19872067B425007969B1 /* MessagePackValue+Codable.swift in Sources */,
+				6326E6B12067F24700064BA0 /* Primitives.swift in Sources */,
+				6326E6AC2067EF6B00064BA0 /* IntMeta.swift in Sources */,
 				637E197B2067A8A6007969B1 /* MsgpackTranslator.swift in Sources */,
+				6326E6BE2067FC7B00064BA0 /* EncodingOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,9 +774,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6326E6B42067F4D200064BA0 /* MsgpackTranslator+_wrap.swift in Sources */,
 				637E197E2067AC7A007969B1 /* MessagePackExtension.swift in Sources */,
 				637E19842067B425007969B1 /* MessagePackValue+Codable.swift in Sources */,
+				6326E6BB2067FC7B00064BA0 /* EncodingOptions.swift in Sources */,
+				6326E6AE2067F24700064BA0 /* Primitives.swift in Sources */,
+				6326E6A92067EF6B00064BA0 /* IntMeta.swift in Sources */,
 				637E19782067A8A6007969B1 /* MsgpackTranslator.swift in Sources */,
+				6326E6B92067F84400064BA0 /* MapMeta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -839,7 +883,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -910,7 +954,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1110,7 +1154,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1182,7 +1226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1258,7 +1302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1329,7 +1373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1528,7 +1572,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -1600,7 +1644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = MessagePackCodable/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;

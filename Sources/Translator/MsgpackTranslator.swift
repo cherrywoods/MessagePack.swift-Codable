@@ -20,7 +20,7 @@
 import Foundation
 import MetaSerialization
 
-internal struct MsgpackMetaSupplier: MetaSupplier {
+internal struct MsgpackTranslator: MetaSupplier {
     
     // meta types:
     //  nil (NilMeta)
@@ -35,7 +35,12 @@ internal struct MsgpackMetaSupplier: MetaSupplier {
     //  extension (SimpleGenericMeta)
     
     func wrap<T>(for value: T, at codingPath: [CodingKey]) throws -> Meta? {
-        <#code#>
+        
+        // I tried to overload wrap itself, but it didn't work,
+        // but worked with "own" function (not required)
+        
+        return try _wrap(value, at: codingPath)
+        
     }
     
 }
